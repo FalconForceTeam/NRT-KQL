@@ -1,0 +1,32 @@
+{
+    "m365": {
+        "Accepted": [
+            "let"
+        ],
+        "Prohibited": [
+            "pattern",
+            "query_parameters",
+            "restrict",
+            "set"
+        ],
+        "Untested": [
+            "declare",
+            "alias"
+        ]
+    },
+    "sentinel": {
+        "Accepted": [
+            "let",
+            "declare"
+        ],
+        "Prohibited": [
+            "set"
+        ],
+        "Untested": [
+            "pattern",
+            "query_parameters",
+            "restrict",
+            "alias"
+        ]
+    }
+}
